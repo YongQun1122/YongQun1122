@@ -1,0 +1,18 @@
+overwrite: true
+schema: ${GRAPHQL_SCHEMA_PATH}
+documents: 'src/graphql/**/*.{graphql,gql}'
+generates:
+  src/graphql/index.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    hooks:
+      afterOneFileWrite:
+        - prettier --write
+config:
+  reactApolloVersion: 3
+  withHooks: true
+  withMutationFn: true
+  scalars:
+    Upload: File | Blob

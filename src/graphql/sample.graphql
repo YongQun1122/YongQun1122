@@ -1,0 +1,45 @@
+# mutation customerSignUp($input: CustomerSignUpDTO!) {
+#   customerSignUp(input: $input) {
+#     message
+#     success
+#   }
+# }
+
+# mutation customerCompleteProfile($input: CustomerCompleteProfileDTO!) {
+#   customerCompleteProfile(input: $input) {
+#     ...CustomerMeFields
+#   }
+# }
+
+# mutation customerUpdateProfile($input: CustomerUpdateProfileDTO!) {
+#   customerUpdateProfile(input: $input) {
+#     ...CustomerMeFields
+#   }
+# }
+
+# mutation customerForgotPassword($input: CustomerForgotPasswordDTO!) {
+#   customerForgotPassword(input: $input) {
+#     message
+#     success
+#   }
+# }
+
+# mutation customerVerifyForgotPasswordCode($input: GqlVerifyCodeDTO!) {
+#   customerVerifyForgotPasswordCode(input: $input) {
+#     success
+#     token
+#   }
+# }
+
+# mutation customerResetPassword($input: CustomerResetPasswordDTO!) {
+#   customerResetPassword(input: $input) {
+#     message
+#     success
+#   }
+# }
+
+# mutation customerChangePassword($input: CustomerChangePasswordDTO!) {
+#   customerChangePassword(input: $input) {
+#     ...CustomerMeFields
+#   }
+# }

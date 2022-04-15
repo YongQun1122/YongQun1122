@@ -1,0 +1,2 @@
+schema: ${GRAPHQL_SCHEMA_PATH}
+documents: 'src/**/*.{graphql,js,ts,jsx,tsx}'
