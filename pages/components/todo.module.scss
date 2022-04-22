@@ -1,153 +1,206 @@
 .body {
-    background: linear-gradient(to bottom, #68eacc 0%, #497be8 100%);
-    width: 100%;
-    height: 100vh;
+  background: linear-gradient(to bottom, #68eacc 0%, #497be8 100%);
+  width: 100%;
+  height: 100vh;
 }
 .wrapper {
-    background: #fff;
-    width: 1350px;
-    height: 600px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    padding: 30px;
-    position: absolute;
-    border-radius: 30px;
+  background: #fff;
+  width: 1350px;
+  height: 600px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 30px;
+  position: absolute;
+  border-radius: 30px;
 }
 .wrapper header {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 .btnSign {
-    background: #8e49e8;
-    color: #FFFFFF;
-    width: 80px;
-    height: 35px;
-    margin-right: 20px;
-    float: right;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
+  background: #8e49e8;
+  color: #ffffff;
+  width: 80px;
+  height: 35px;
+  float: right;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
 }
 .inputField {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .inputField input {
-    width: 1200px;
-    padding: 10px;
-    font-size: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 1200px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 .inputField button {
-    background: #8e49e8;
-    color: #fff;
-    width: 80px;
-    padding: 3px;
-    float: right;
-    font-size: 25px;
-    border: none;
-    border-radius: 5px;
+  background: #8e49e8;
+  color: #fff;
+  width: 80px;
+  padding: 3px;
+  float: right;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
 }
 .todoListWrapper {
-    height: 350px;
-    max-height: 350px;
-    margin-top: 30px;
-    overflow-y: auto;
+  height: 350px;
+  max-height: 350px;
+  margin-top: 30px;
+  overflow-y: auto;
 }
 .todoDataWrapper {
-    background: #f2f2f2;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    list-style: none;
+  background: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
 }
 .onStatus {
-    background: #ff8000;
-    color: #fff;
-    width: 120px;
-    height: 35px;
-    margin-top: -10px;
-    margin-left: -10px;
-    float: left;
-    font-size: 15px;
-    font-weight: 500;
-    border: none;
-    border-radius: 5px;
+  background: #ff8000;
+  color: #fff;
+  width: 120px;
+  height: 35px;
+  margin-top: -10px;
+  margin-left: -10px;
+  float: left;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
 }
 .inStatus {
-    background: #0080ff;
-    color: #fff;
-    width: 120px;
-    height: 35px;
-    margin-top: -10px;
-    margin-left: -10px;
-    float: left;
-    font-size: 15px;
-    font-weight: 500;
-    border: none;
-    border-radius: 5px;
+  background: #0080ff;
+  color: #fff;
+  width: 120px;
+  height: 35px;
+  margin-top: -10px;
+  margin-left: -10px;
+  float: left;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
 }
 .btnSave {
-    background: #ff0000;
-    color: #fff;
-    width: 80px;
-    height: 35px;
-    margin-top: -10px;
-    margin-right: -10px;
-    float: right;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
+  background: #ff0000;
+  color: #fff;
+  width: 80px;
+  height: 35px;
+  margin-top: -10px;
+  margin-right: -10px;
+  float: right;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
 }
 .reactQuill {
-    background: #FFFFFF;
-    margin-top: 30px;
-    margin-bottom: 50px;
+  background: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.dateWrapper {
+  height: 20px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 .btnDelete {
-    background: #ff0000;
-    color: #fff;
-    width: 80px;
-    height: 35px;
-    margin-top: -25px;
-    margin-right: -10px;
-    float: right;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
+  background: #ff0000;
+  color: #fff;
+  width: 80px;
+  height: 35px;
+  margin-top: -25px;
+  margin-right: -10px;
+  float: right;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
 }
 .btnEditing {
-    background: #ff0000;
-    color: #fff;
-    width: 80px;
-    height: 35px;
-    margin-top: -10px;
-    margin-right: -10px;
-    float: right;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
+  background: #ff0000;
+  color: #fff;
+  width: 80px;
+  height: 35px;
+  margin-top: -10px;
+  margin-right: -10px;
+  float: right;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
 }
-.textBox {
-    margin-left: 120px;
-    margin-bottom: 20px;
+.tbWrapper {
+  margin-left: 130px;
+}
+.thWrapper {
+  width: 100px;
+}
+.dueField {
+  color: #ff0000;
 }
 .footer {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .footer span {
-    font-size: 15px;
+  font-size: 15px;
 }
 .footer button {
-    background: #8e49e8;
-    color: #fff;
-    width: 100px;
-    padding: 5px;
-    float: right;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
+  background: #8e49e8;
+  color: #fff;
+  width: 100px;
+  padding: 5px;
+  float: right;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.signWrapper {
+  background: #fff;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 30px;
+  position: absolute;
+  border-radius: 30px;
+}
+.emailField {
+  width: 220px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.passwordField {
+  width: 220px;
+  margin-bottom: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.btnSignIn {
+  background: #8e49e8;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+.btnSignUp {
+  background: #8e49e8;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
 }

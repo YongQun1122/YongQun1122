@@ -1,0 +1,96 @@
+.background {
+  background: linear-gradient(to bottom, #68eacc 0%, #497be8 100%);
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  background: #fff;
+  width: 500px;
+  height: 600px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.wrapper header {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.inputField {
+  margin-top: 20px;
+}
+
+.inputField input {
+  font-size: 20px;
+  width: 380px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inputField button {
+  background: #8e49e8;
+  color: #fff;
+  font-size: 20px;
+  float: right;
+  width: 51px;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.todoList {
+  height: 365px;
+  margin-left: -40px;
+  max-height: 365px;
+  overflow-y: auto;
+}
+
+.todoList li {
+  background: #f2f2f2;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+/*.todoList li:hover + .show {
+  display: block;
+}*/
+
+.todoList li button {
+  background: #ff0000;
+  color: #fff;
+  /*display: none;*/
+  font-size: 40px;
+  float: right;
+  margin-top: -10px;
+  margin-right: -10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer span {
+  font-size: 20px;
+}
+
+.footer button {
+  background: #8e49e8;
+  color: #fff;
+  font-size: 20px;
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}

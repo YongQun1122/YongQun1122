@@ -15,18 +15,10 @@
     "api-codegen": "node script/swagger.js"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint src"
-    ],
-    "{*.json,.{babelrc,eslintrc,prettierrc}}": [
-      "prettier --ignore-path .eslintignore --parser json --write"
-    ],
-    "*.{css,scss}": [
-      "prettier --ignore-path .eslintignore --single-quote --write"
-    ],
-    "*.{html,md,yml}": [
-      "prettier --ignore-path .eslintignore --single-quote --write"
-    ]
+    "*.{js,jsx,ts,tsx}": ["eslint src"],
+    "{*.json,.{babelrc,eslintrc,prettierrc}}": ["prettier --ignore-path .eslintignore --parser json --write"],
+    "*.{css,scss}": ["prettier --ignore-path .eslintignore --single-quote --write"],
+    "*.{html,md,yml}": ["prettier --ignore-path .eslintignore --single-quote --write"]
   },
   "dependencies": {
     "@apollo/client": "^3.3.7",
@@ -58,6 +50,7 @@
     "react": "^17.0.2",
     "react-beautiful-dnd": "^13.1.0",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.30.0",
     "react-quill": "^1.3.5",
     "react-quill-antd": "^1.0.1-beta",
     "react-redux": "^7.2.2",
@@ -72,6 +65,7 @@
     "swagger-axios-codegen": "^0.12.7",
     "tailwindcss": "^3.0.23",
     "typescript": "^4.3.4",
+    "usehooks-ts": "^2.5.1",
     "webpack": "^5.70.0"
   },
   "devDependencies": {
